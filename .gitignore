@@ -1,0 +1,50 @@
+HELP.md
+**/target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### Helm generated code ###
+**/*.lock
+**/*.tgz
+
+/.metadata/
+.allure
+/api/allure-results/
+/acl/allure-results/
+/db/allure-results/
+/adapter/allure-results/
+/adapter/ajcore*
+
+/app/allure-results/
+test/component-test/report
+test/component-test/collections/newman
+
+app/src/main/resources/logback.xml
